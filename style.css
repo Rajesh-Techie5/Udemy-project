@@ -13,6 +13,10 @@ body{
     justify-content: space-between;
     border-bottom: solid 1px #000;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
 
 }
 
@@ -35,6 +39,7 @@ body{
     border: none;
     font-size: 16px;
     width: 100%;
+    background-color: transparent;
 
 }
 .navbar__s2 input:focus{
@@ -67,6 +72,10 @@ body{
 
 }
 
+.sale-image{
+    position: relative;
+    display: flex;
+}
 .recommended{
     padding: 20px;
 }
@@ -141,5 +150,12 @@ body{
 
 }
 
-
-
+.sale-content {
+    position: absolute;
+    padding: 25px;
+    width: 350px;
+    top: 30%;
+    background-color: white;
+    left: 50px;
+    border: 2px solid #000;
+}
